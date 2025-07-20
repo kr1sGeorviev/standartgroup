@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaHammer, FaTruck, FaTools, FaBuilding, FaCheckCircle, FaHome, FaClipboardCheck, FaHardHat, FaWrench } from 'react-icons/fa'
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaCheckCircle, FaHome, FaClipboardCheck, FaHardHat, FaWrench, FaBuilding, FaTools } from 'react-icons/fa'
 
 export default function Home() {
   return (
@@ -278,7 +277,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-50 p-6 rounded-lg">
               <p className="text-gray-600 mb-4">
-                "СТАНДАРТ ГРУП завършиха ремонт на нашия офис навреме и в рамките на бюджета. Вниманието им към детайлите и професионалният подход надхвърли очакванията ни."
+                &quot;СТАНДАРТ ГРУП завършиха ремонт на нашия офис навреме и в рамките на бюджета. Вниманието им към детайлите и професионалният подход надхвърли очакванията ни.&quot;
               </p>
               <div className="font-semibold">Сара Джонсън</div>
               <div className="text-gray-500">Изпълнителен директор, ТехКорп</div>
@@ -286,7 +285,7 @@ export default function Home() {
             
             <div className="bg-gray-50 p-6 rounded-lg">
               <p className="text-gray-600 mb-4">
-                "Екипът на СТАНДАРТ ГРУП трансформира нашия остарял дом в модерно произведение на изкуството. Горещо препоръчваме техните услуги!"
+                &quot;Екипът на СТАНДАРТ ГРУП трансформира нашия остарял дом в модерно произведение на изкуството. Горещо препоръчваме техните услуги!&quot;
               </p>
               <div className="font-semibold">Михаил Чен</div>
               <div className="text-gray-500">Собственик на дом</div>
@@ -294,7 +293,7 @@ export default function Home() {
             
             <div className="bg-gray-50 p-6 rounded-lg">
               <p className="text-gray-600 mb-4">
-                "Професионална, надеждна и качествена работа. СТАНДАРТ ГРУП са нашият избор за строителен партньор от години."
+                &quot;Професионална, надеждна и качествена работа. СТАНДАРТ ГРУП са нашият избор за строителен партньор от години.&quot;
               </p>
               <div className="font-semibold">Лиза Родригес</div>
               <div className="text-gray-500">Управител на имоти</div>
@@ -325,7 +324,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center">
                   <FaMapMarkerAlt className="text-yellow-400 mr-3" />
-                  <span>ул. "Строителна" 123, София 1000</span>
+                  <span>ул. &quot;Строителна&quot; 123, София 1000</span>
                 </div>
               </div>
               
